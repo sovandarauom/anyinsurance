@@ -1,0 +1,21 @@
+POST http://localhost:8080/calculateBenefits
+Content-Type: application/json
+
+{
+  "schedule": "SEMI",
+  "term": 5,
+  "coverages": [
+    {
+      "code": "AAA",
+      "planCode": "A001",
+      "faceAmount": 30000
+    },
+    {
+      "code": "BBB",
+      "planCode": "B001",
+      "faceAmount": 10000
+    }
+  ]
+}
+
+###
